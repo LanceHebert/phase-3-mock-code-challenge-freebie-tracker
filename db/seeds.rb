@@ -17,5 +17,14 @@ puts "Creating freebies..."
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+# t.string "item_name"
+#     t.integer "value"
+#     t.integer "company_id"
+# #     t.integer "dev_id"
+# puts "Creating Freebies..."
+# Freebie.create(item_name:"Bazooka",value: 100,company_id:company.id,dev_id:dev.id)
+# Freebie.create(item_name:"Cuckoo",value: 30,company_id:company.id,dev_id:dev.id)
+# Freebie.create(item_name:"Clock",value: 2,company_id:company.id,dev_id:dev.id)
+# Freebie.create(item_name:"Badge",value: 10,company_id:company.id,dev_id:dev.id)
 
 puts "Seeding done!"
